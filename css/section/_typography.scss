@@ -1,0 +1,197 @@
+// Typography of project
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap');
+
+@mixin typeface-headline($size, $device: desktop) {
+  
+    font-family: 'Inter', sans-serif;
+    
+    @if $size == h1 and $device == desktop {
+      font-size: 64px;
+      line-height: 100%;
+      font-weight: 900;
+    } @else if $size == h1 and $device == mobile {
+      font-size: 40px;
+      line-height: 110%;
+      font-weight: 900;
+    } @else if $size == h1 and $device == smallmobile {
+      font-size: 36px;
+      line-height: 110%;
+      font-weight: 900;
+    } 
+    
+    @else if $size == h2 and $device == desktop {
+      font-size: 48px;
+      line-height: 120%;
+      font-weight: 700;
+    } @else if $size == h2 and $device == mobile {
+      font-size: 32px;
+      line-height: 120%;
+      font-weight: 700;
+    } @else if $size == h2 and $device == smallmobile {
+      font-size: 28px;
+      line-height: 130%;
+      font-weight: 700;
+    }
+    
+    @else if $size == h3 and $device == desktop {
+      font-size: 36px;
+      line-height: 120%;
+      font-weight: 700;
+    } @else if $size == h3 and $device == mobile {
+      font-size: 28px;
+      line-height: 130%;
+      font-weight: 700;
+    } @else if $size == h3 and $device == smallmobile {
+      font-size: 20px;
+      line-height: 140%;
+      font-weight: 700;
+    } 
+    
+    @else if $size == h4 and $device == desktop {
+      font-size: 24px;
+      line-height: 150%;
+      font-weight: 700;
+    } @else if $size == h4 and $device == mobile {
+      font-size: 20px;
+      line-height: 150%;
+      font-weight: 700;
+    }
+  
+    @else if $size == h5 and $device == desktop {
+      font-size: 18px;
+      line-height: 150%;
+      font-weight: 400;
+    } @else if $size == h5 and $device == mobile {
+      font-size: 16px;
+      line-height: 150%;
+      font-weight: 400;
+    }
+
+    @else if $size == h6 and $device == desktop {
+      font-size: 16px;
+      line-height: 140%;
+      font-weight: 400;
+    } @else if $size == h6 and $device == mobile {
+      font-size: 14px;
+      line-height: 140%;
+      font-weight: 400;
+    }
+
+    @else if $size == h7 and $device == desktop {
+      font-size: 14px;
+      line-height: 140%;
+      font-weight: 400;
+    }
+
+    @else if $size == p and $device == desktop {
+      font-size: 12px;
+      line-height: 100%;
+      font-weight: 400;
+    } @else if $size == p and $device == mobile {
+      font-size: 10px;
+      line-height: 100%;
+      font-weight: 400;
+    }
+}
+
+
+h1 {
+  color: $white;
+  z-index: 5;
+  
+  @include typeface-headline(h1, desktop);
+  @include responsive(s) {
+    @include typeface-headline(h1, mobile);
+  }
+  @include responsive(xs) {
+    @include typeface-headline(h1, smallmobile);
+  }
+}
+  
+h2 {
+  color: $white;
+  @include typeface-headline(h2, desktop);
+  
+  @include responsive(s) {
+    @include typeface-headline(h2, mobile);
+  }
+  
+  @include responsive(xs) {
+    @include typeface-headline(h2, smallmobile);
+  }
+}
+  
+h3 {
+  color: $white;
+  @include typeface-headline(h3, desktop);
+  
+  @include responsive(s) {
+    @include typeface-headline(h3, mobile);
+  }
+  
+  @include responsive(xs) {
+    @include typeface-headline(h3, smallmobile);
+  }
+}
+  
+h4 {
+  color: $white;
+  @include typeface-headline(h4, desktop);
+  
+  @include responsive(s) {
+    @include typeface-headline(h4, mobile);
+  }
+  
+  @include responsive(xs) {
+    @include typeface-headline(h4, smallmobile);
+  }
+}
+  
+h5 {
+  color: $white;
+  @include typeface-headline(h5, desktop);
+  
+  @include responsive(s) {
+    @include typeface-headline(h5, mobile);
+  }
+}
+  
+h6 {
+  color: $white;
+  @include typeface-headline(h6, desktop);
+  
+  @include responsive(s) {
+    @include typeface-headline(h6, mobile);
+  }
+}
+
+h7 {
+  color: $white;
+  @include typeface-headline(h7, desktop);
+
+}
+
+p {
+  color: $primary-900;
+  font-style: italic;
+  
+  @include typeface-headline(p, desktop);
+  
+  @include responsive(s) {
+    @include typeface-headline(p, mobile);
+  }
+}
+
+.uppercase{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.text-center { 
+  text-align: center;
+}
+
+.text-end {
+  text-align: end;
+}

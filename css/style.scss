@@ -1,0 +1,41 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import './section/colors';
+@import './section/layout';
+@import './section/typography';
+@import './section/buttons';
+@import './section/spacing';
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    height: 100vh;   
+    background-color: $background;
+
+    font-family: 'Inter', sans-serif;
+
+}
+
+svg, img {
+    display: block;
+    width: 100%;
+}
+
+a, ul {
+    text-decoration: none;
+    list-style: none;
+    color: $white;
+}
+
+@import './section/menu';
+@import './section/icons';
+@import './section/swiper';
+@import './section/footer';
+@import './section/animations';

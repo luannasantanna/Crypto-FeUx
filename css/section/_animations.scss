@@ -1,0 +1,109 @@
+// .icon-logo {
+//     animation: icon-logo 5s ease infinite alternate;
+// }
+
+// @keyframes icon-logo {
+//     0% {
+//         stroke-width: 3;
+//         stroke-dasharray: 0 60;
+//         stroke-opacity: 1;
+//     }
+
+//     60%, 100% {
+//         stroke-width: 3;
+//         stroke-dasharray: 60 0;
+//         stroke-opacity: 1;
+//     }
+// }
+
+
+.avatar-1 {
+    animation: avatar-1 7s ease infinite alternate;
+}
+
+@keyframes avatar-1 {
+    0% {
+        transform: translate3d(0, 0px, 0);
+    }
+    100% {
+        transform: translate3d(0, 50px, 0);
+    }
+}
+
+.avatar-2 {
+    animation: avatar-2 7s ease 1s infinite alternate;
+}
+
+@keyframes avatar-2 {
+    0% {
+        transform: translate3d(0, 0px, 0);
+    }
+    100% {
+        transform: translate3d(0, 30px, 0);
+    }
+}
+
+.avatar-3 {
+    animation: avatar-3 7s ease 1.5s infinite alternate;
+}
+
+@keyframes avatar-3 {
+    0% {
+        transform: translate3d(0, 0px, 0);
+    }
+    100% {
+        transform: translate3d(0, -50px, 0);
+    }
+}
+
+.avatar-4 {
+    animation: avatar-4 7s ease infinite alternate;
+}
+
+@keyframes avatar-4 {
+    0% {
+        transform: translate3d(0, 0px, 0);
+    }
+    100% {
+        transform: translate3d(0, 30px, 0);
+    }
+}
+
+.avatar-5 {
+    animation: avatar-5 7s ease infinite alternate;
+}
+
+@keyframes avatar-5 {
+    0% {
+        transform: translate3d(0, 0px, 0);
+    }
+    100% {
+        transform: translate3d(0, -30px, 0);
+    }
+}
+
+.avatar-6 {
+    animation: avatar-6 7s ease infinite alternate;
+}
+
+@keyframes avatar-6 {
+    0% {
+        transform: translate3d(0, 0px, 0);
+    }
+    100% {
+        transform: translate3d(0, -50px, 0);
+    }
+}
+
+.avatar-7 {
+    animation: avatar-7 7s ease 2s infinite alternate;
+}
+
+@keyframes avatar-7 {
+    0% {
+        transform: translate3d(0, 0px, 0);
+    }
+    100% {
+        transform: translate3d(0, -50px, 0);
+    }
+}

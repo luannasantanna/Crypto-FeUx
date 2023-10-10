@@ -1,0 +1,31 @@
+.swiper-container {
+    max-width: $container-xl;
+    margin: 0 auto;
+    padding-left: 180px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+
+    @include responsive(s) {
+        flex-direction: column;
+        padding: 24px 80px;
+    }
+
+}
+
+.swiper-slide {
+    max-width: 326px;
+    margin-right: 24px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    border-radius: 12px;
+
+}
