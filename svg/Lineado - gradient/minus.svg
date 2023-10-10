@@ -1,0 +1,11 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Lineado/minus">
+<path id="Ellipse 9" d="M18.3264 9C18.7583 9.90926 19 10.9264 19 12C19 14.4504 17.7409 16.6067 15.8344 17.8573C14.733 18.5798 13.4156 19 12 19C10.5844 19 9.26697 18.5798 8.16559 17.8573C6.25908 16.6067 5 14.4504 5 12C5 8.13401 8.13401 5 12 5C13.7135 5 15.2832 5.61568 16.5 6.63789M9 12H15" stroke="url(#paint0_linear_105_1916)" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_105_1916" x1="5" y1="5" x2="19" y2="19" gradientUnits="userSpaceOnUse">
+<stop stop-color="#9A4DFF"/>
+<stop offset="1" stop-color="#5EEBFF"/>
+</linearGradient>
+</defs>
+</svg>

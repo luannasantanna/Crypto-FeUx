@@ -1,0 +1,11 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Lineado/rank">
+<path id="Vector 4" d="M6 12H7.25597C7.69758 12 8.0869 11.7103 8.2138 11.2874L9.55609 6.81302C9.86933 5.7689 11.3915 5.91532 11.5 7.00001L11.875 10.75M18 12H16.744C16.3024 12 15.9131 12.2897 15.7862 12.7127L14.4439 17.187C14.1307 18.2311 12.6085 18.0847 12.5 17L12.125 13.25" stroke="url(#paint0_linear_105_1926)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_105_1926" x1="6" y1="6.10333" x2="17.7916" y2="18.1015" gradientUnits="userSpaceOnUse">
+<stop stop-color="#9A4DFF"/>
+<stop offset="1" stop-color="#5EEBFF"/>
+</linearGradient>
+</defs>
+</svg>
